@@ -1,0 +1,7 @@
+def power_of_Ein(croqueta, sploot):
+einDog = []
+  for wag in range(len(croqueta)):
+    if wag != sploot[wag]:
+      einDog.append(wag)
+      break
+    return einDog
